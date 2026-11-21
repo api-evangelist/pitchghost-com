@@ -1,4 +1,4 @@
-# pitchghost-com
+# PitchGhost
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,137 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-pitchghost-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://pitchghost.com/
+PitchGhost provides advanced social listening for sales, marketing, and communications teams. It monitors LinkedIn, X (Twitter), Reddit, and Facebook for posts relevant to a company, delivering curated alerts so teams can engage with prospects and customers. The platform offers unlimited searches, team collaboration, and integrates with popular CRMs, with a free 7‑day trial and tiered pricing for growing businesses.
+
+**Areas:** Company · SocialListening · Marketing · Sales · Communications · SaaS
+
+## PitchGhost on APIs.io
+
+Everything profiled for PitchGhost is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/pitchghost-com/](https://apis.io/providers/pitchghost-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (8)
+
+- [PitchGhost Actions API](https://apis.io/apis/pitchghost-com/pitchghost-com-actions-api/) — The Actions API from PitchGhost — 4 operation(s) for actions.
+- [PitchGhost Company API](https://apis.io/apis/pitchghost-com/pitchghost-com-company-api/) — The Company API from PitchGhost — 1 operation(s) for company.
+- [PitchGhost Contacts API](https://apis.io/apis/pitchghost-com/pitchghost-com-contacts-api/) — The Contacts API from PitchGhost — 2 operation(s) for contacts.
+- [PitchGhost Enrichment API](https://apis.io/apis/pitchghost-com/pitchghost-com-enrichment-api/) — The Enrichment API from PitchGhost — 2 operation(s) for enrichment.
+- [PitchGhost Finds API](https://apis.io/apis/pitchghost-com/pitchghost-com-finds-api/) — The Finds API from PitchGhost — 6 operation(s) for finds.
+- [PitchGhost Ghosts API](https://apis.io/apis/pitchghost-com/pitchghost-com-ghosts-api/) — The Ghosts API from PitchGhost — 5 operation(s) for ghosts.
+- [PitchGhost Scans API](https://apis.io/apis/pitchghost-com/pitchghost-com-scans-api/) — The Scans API from PitchGhost — 2 operation(s) for scans.
+- [PitchGhost System API](https://apis.io/apis/pitchghost-com/pitchghost-com-system-api/) — The System API from PitchGhost — 1 operation(s) for system.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [PitchGhost Agentic Access](https://apis.io/agentic-access/pitchghost-com/pitchghost-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [ActionAccountsResponse](https://apis.io/schemas/pitchghost-com/pitchghost-com-action-accounts-response/)
+- [CreateGhostRequest](https://apis.io/schemas/pitchghost-com/pitchghost-com-create-ghost-request/)
+- [FindActionsResponse](https://apis.io/schemas/pitchghost-com/pitchghost-com-find-actions-response/)
+- [PublicSearchEstimateRequest](https://apis.io/schemas/pitchghost-com/pitchghost-com-public-search-estimate-request/)
+- [SearchFindsResponse](https://apis.io/schemas/pitchghost-com/pitchghost-com-search-finds-response/)
+- [UpdateFindResponse](https://apis.io/schemas/pitchghost-com/pitchghost-com-update-find-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Pitchghost Com Context](https://apis.io/jsonld/pitchghost-com/pitchghost-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [PitchGhost API Rules](https://apis.io/rules/pitchghost-com/pitchghost-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [PitchGhost Authentication](https://apis.io/security/pitchghost-com/pitchghost-com-authentication/)
+- [PitchGhost Domain Security](https://apis.io/security/pitchghost-com/pitchghost-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [PitchGhost Plans Pricing](https://apis.io/plans/pitchghost-com/pitchghost-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://pitchghost.com/)
+- [Documentation](https://pitchghost.com/docs)
+- [Getting started](https://pitchghost.com/docs/getting-started)
+- [Pricing](https://pitchghost.com/pricing)
+- [Support](https://pitchghost.com/contact)
+- [Blog](https://pitchghost.com/blog)
+- [Terms of service](https://pitchghost.com/terms)
+- [Privacy policy](https://pitchghost.com/privacy)
+- [GitHub](https://github.com/PitchGhost)
+
+## API Evangelist rating
+
+**Kin Score 60.8** — strong · rubric 0.27.0 · scored 2026-11-21
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 62.7 |
+| Contract governance | 79.1 |
+| Operational transparency | 13.2 |
+| Developer ergonomics | 56.4 |
+| Access clarity | 73.2 |
+
+**Agent readiness 43.0** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | unknown |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/pitchghost-com/](https://apis.io/providers/pitchghost-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for PitchGhost: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/pitchghost-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
